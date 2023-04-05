@@ -79,7 +79,8 @@ pip install pyral
 
 Get an API key from [Rally](https://rally1.rallydev.com/login/accounts/index.html#/keys) and [create a new key](https://rally1.rallydev.com/login/accounts/index.html#/keys/new).
 
-image.png
+![image](https://user-images.githubusercontent.com/868520/230220816-b224d630-4b33-4266-b539-c05f080fee66.png)
+
 
 Set the APIKEY value in the `rally.cfg` to the key you just generated.
 
