@@ -3,18 +3,18 @@
 This is a simple setup to be able to create pull requests in Github and pull information from UHG Rally
 
 - [Bash script to create Xbox PR](#bash-script-to-create-xbox-pr)
-    - [Disclosure](#disclosure)
-    - [Setup](#setup)
-        - [Python 3](#python-3)
-        - [GitHub CLI](#github-cli)
-        - [Rally API Key](#rally-api-key)
-    - [Run the script](#run-the-script)
-    - [Example](#example)
-
+  - [Disclosure](#disclosure)
+  - [Setup](#setup)
+    - [Python 3](#python-3)
+    - [GitHub CLI](#github-cli)
+    - [Rally API Key](#rally-api-key)
+  - [Run the script](#run-the-script)
+  - [Example](#example)
 
 ## Disclosure
 
 This has been simplified and hardcoded to work for the UHG/Xbox team. It can be modified to work for other teams by changing the format of the PR body in `.zshrc` and the team settings in `rally.cfg`
+
 ## Setup
 
 It will be a bash function that will live in your `~/.zshrc` file. You will also have to save a python script and a configuration file somewhere in your directory and have the correct path setup on your `~/.zshrc` file.
@@ -83,17 +83,17 @@ Get an API key from [Rally](https://rally1.rallydev.com/login/accounts/index.htm
 
 ![image](https://user-images.githubusercontent.com/868520/230220816-b224d630-4b33-4266-b539-c05f080fee66.png)
 
-
 Set the APIKEY value in the `rally.cfg` to the key you just generated.
 
 ## Run the script
 
-Afer the steps above have been perfomed you are ready to go. All you need to do is reload `.zshrc` in your terminal and then run the command `pullrequest` from the directory of the repo you want to create a PR for. 
-* Make sure that you already have the commit finalized. 
-* If you haven't pushed the commit to origin it will ask you where to create the new branch.
+Afer the steps above have been perfomed you are ready to go. All you need to do is reload `.zshrc` in your terminal and then run the command `pullrequest` from the directory of the repo you want to create a PR for.
+
+- Make sure that you already have the commit finalized.
+- If you haven't pushed the commit to origin it will ask you where to create the new branch.
 
 ```bash
-# Reload .zshrc 
+# Reload .zshrc
 source ~/.zshrc
 # create pull request
 pullrequest
@@ -102,5 +102,3 @@ pullrequest
 ## Example
 
 ![image](https://user-images.githubusercontent.com/868520/230222041-54d8cee4-cd93-43cf-9174-de909f94dcdf.png)
-
-
