@@ -3,11 +3,13 @@
 This is a simple setup to be able to create pull requests in Github and pull information from UHG Rally
 
 - [Bash script to create Xbox PR](#bash-script-to-create-xbox-pr)
+    - [Disclosure](#disclosure)
     - [Setup](#setup)
         - [Python 3](#python-3)
         - [GitHub CLI](#github-cli)
         - [Rally API Key](#rally-api-key)
     - [Run the script](#run-the-script)
+    - [Example](#example)
 
 
 ## Disclosure
@@ -96,4 +98,9 @@ source ~/.zshrc
 # create pull request
 pullrequest
 ```
+
+## Example
+
+![image](https://user-images.githubusercontent.com/868520/230222041-54d8cee4-cd93-43cf-9174-de909f94dcdf.png)
+
 
